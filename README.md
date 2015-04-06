@@ -1,5 +1,6 @@
 How can I swap split window position?
 
+```
 +---------+---------+           +---------+---------+
 |         |         |           |         |         |
 |         |         |           |         |         |
@@ -10,6 +11,7 @@ How can I swap split window position?
 |         |         |           |         |         |
 |         |         |           |         |         |
 +---------+---------+           +---------+---------+
+```
 
 ```
 Ctrl-w-J
