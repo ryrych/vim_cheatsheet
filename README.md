@@ -26,3 +26,8 @@ I'm at the end of the screen. How can I have more context without switching to
 normal mode and pressing `zz`?
 
 Use `zz` in **insert normal** mode, `Ctrl-o zz`.
+
+
+Mnemonics
+
+`yt` - *yank till*
