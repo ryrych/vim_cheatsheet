@@ -18,5 +18,5 @@ Ctrl-w-J
 ```
 
 More info:
-- You can use any direction key (*capital*) to change position: `h`, `j`, `k`, `l`
-- Use `Ctrl-w-r` to *rotate* windows.
+- You can use any direction key (**capital**) to change position: `h`, `j`, `k`, `l`
+- Use `Ctrl-w-r` to **rotate** windows.
