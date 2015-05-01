@@ -26,7 +26,7 @@ I'm at the end of the screen. How can I have more context without switching to
 normal mode and pressing `zz`?
 
 Use `zz` in **insert normal** mode, `Ctrl-o zz`.
-![Screencast of using zz in insert normal mode](images/001_zz_for_context.gif)
+![Screencast of using zz in insert normal mode](images/003_zz_for_context.gif)
 
 
 How to replace `/images/` with `/components/` in all lines?
@@ -52,3 +52,20 @@ li.three a{ background-image: url('/components/sprite.png'); }
 Mnemonics
 
 `yt` - *yank till*
+
+
+I'm refactoring `deadline_at` method and as a part of it I'm also changing its name to
+`due_date`. I'd like to change the name in all occurrences.
+
+First find all occurrences:
+
+```
+Ag! `due_date`
+```
+
+`!` doesn't stop at first found result. Now you can replace `deadline_at` with
+`due_date` in all open buffers:
+
+```
+:bufdo %s/deadline_at/due_date/gce
+```
