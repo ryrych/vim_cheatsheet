@@ -69,3 +69,24 @@ Ag! `due_date`
 ```
 :bufdo %s/deadline_at/due_date/gce
 ```
+
+How to paste below current line?
+
+```
+:put a
+```
+
+Note: `"ap` would paste after the cursor position on the current line
+
+
+How to format text with par (http://vimcasts.org/episodes/formatting-text-with-par/)
+
+```
+gq
+```
+
+How to toggle between the current and the last buffer in normal mode?
+
+```
+Ctrl-^
+```
