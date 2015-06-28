@@ -90,3 +90,16 @@ How to toggle between the current and the last buffer in normal mode?
 ```
 Ctrl-^
 ```
+
+How to do project-wide search and replace with `Ag`?
+
+```
+:Ag contact_id app/front-end
+:Qargs | argdo %s/contact_id/kontakt_ajdi/gc | update
+```
+more info:
+
+- [`vim-qargs` plugin by **Drew Neil**](https://github.com/nelstrom/vim-qargs)
+- [Project-wide search-and-replace in Vim with :Qdo](http://thepugautomatic.com/2012/07/project-wide-search-and-replace-in-vim-with-qdo/)
+- [command
+  source](http://stackoverflow.com/questions/5686206/search-replace-using-quickfix-list-in-vim/5686810#5686810)
